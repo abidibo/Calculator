@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator Demo</title>
+    <meta charset="utf-8" />
+    <script src="//ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js"></script>
+    <script type="text/javascript" src="mootools-more.js"></script>
+    <script type="text/javascript" src="../Source/calculator.js"></script>
+    <script type="text/javascript">
+      var calc;
+      manageCalculator = function() {
+        if(typeof calc == 'undefined') {
+          calc = new Calculator();
+        }
+        else {
+          calc.toggle();
+        }
+      }
+    </script>
+    <link href="../Style/calculator.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Calculator Demo</h1>
+    <p>Click the button to open the calculator, click again to hide/show it.</p>
+    <button onclick="manageCalculator()">calculator</button>
+  </body>
+</html>
