@@ -24,23 +24,23 @@ Calculator requires
 
 **Include mootools framework and Calculator plugin**
 
-  <script src="path-to-mootools-framework-core-and-more" type="text/javascript"></script>
-  <script src="path-to-calculator-js" type="text/javascript"></script>
+	<script src="path-to-mootools-framework-core-and-more" type="text/javascript"></script>
+	<script src="path-to-calculator-js" type="text/javascript"></script>
 
 **Include Calculator stylesheet**
 
-  <link href="path-to-calculator-css" type="text/css" rel="stylesheet" />
+	<link href="path-to-calculator-css" type="text/css" rel="stylesheet" />
 
 **Example code**
 
 Javascript:
 
-  window.addEvent('domready', function() {
-    var calc = new Calculator({
-      drag: true,
-      digits: 12
-    });
-  })
+	window.addEvent('domready', function() {
+		var calc = new Calculator({
+			drag: true,
+			digits: 12
+		});
+	})
 
 For more demos please visit the Calculator demo page at http://www.abidibo.net/projects/js/calculator/demo
 
