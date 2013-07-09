@@ -1,7 +1,7 @@
 Calculator
 ===========
 
-![Screenshot](http://github.com/abidibo/calculator/raw/master/logo.jpg)
+![Screenshot](http://github.com/abidibo/Calculator/raw/master/logo.jpg)
 
 Simple n-digits calculator with the following supported operations:
 
@@ -47,7 +47,7 @@ For more demos please visit the Calculator demo page at http://www.abidibo.net/p
 Screenshots
 -----------
 
-![Screenshot](http://github.com/abidibo/calculator/raw/master/Docs/c_screenshot.png)
+![Screenshot](http://github.com/abidibo/Calculator/raw/master/Docs/c_screenshot.png)
 
 Links
 -----------------
@@ -56,5 +56,5 @@ The project page: http://www.abidibo.net/projects/js/calculator
 The documentation page: http://www.abidibo.net/projects/js/calculator/doc   
 The demo page: http://www.abidibo.net/projects/js/calculator/demo
 
-Please report bugs, errors and advices in the github project page: http://github.com/abidibo/calculator
+Please report bugs, errors and advices in the github project page: http://github.com/abidibo/Calculator
 
