@@ -9,7 +9,7 @@ authors:
 
 requires:
 - core/1.4.5
--more/1.4.0.1 Drag
+- more/1.4.0.1 Drag
 
 provides:
 - Calculator
